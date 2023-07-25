@@ -1,0 +1,17 @@
+ // LOOPS
+void main() {
+  for(int a = 1; a<=10; a++){
+    print('This is number $a'); //For LOOP
+
+
+  int no = 100;
+  do{
+print( 'number is $no');
+  }while(no>50); //IN do while loop it will print 1 time must if it is false
+
+  int n = 10;
+  while(n<=30){
+    print('number is $n');
+    n++; // While loop will never print if it is false
+  }
+}
